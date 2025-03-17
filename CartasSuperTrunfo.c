@@ -9,41 +9,43 @@
 int main() {
 
     char estado;
-    char códigodacarta [3];
+    char codigodacarta [04]; 
     char nomedacidade [20];
-    int população;
-    float área;
+    int populacao;
+    float area;
     float PIB;
-    int pontosturísticos;
+    int pontosturisticos;
 
     printf ("Nome do Estado: \n");
-    scanf (" %s", &estado);
+    scanf ("%s", &estado);
 
     printf ("Código da Carta: \n");
-    scanf (" %s", &códigodacarta);
+    scanf ("%s", &codigodacarta);
+
 
     printf ("Nome da Cidade: \n");
     scanf (" %s", &nomedacidade);
 
     printf ("População: \n");
-    scanf (" %d", &população);
+    scanf (" %d", &populacao);
 
     printf ("Área em Km²: \n");
-    scanf (" %f", &área);
+    scanf (" %f", &area);
 
     printf ("PIB: \n");
     scanf (" %f", &PIB);
 
     printf ("Número de Pontos Turísticos: \n");
-    scanf (" %d \n", &pontosturísticos);
+    scanf (" %d \n", &pontosturisticos);
 
     printf ("Estado: %s \n", estado);
-    printf ("Código da Carta: %s \n", códigodacarta);
+    printf ("Código da Carta: %s \n", codigodacarta);
     printf ("Nome da Cidade: %s \n", nomedacidade);
-    printf ("População: %d \n", população);
-    printf ("Área em Km²: %f",área);
-    printf ("PIB: %f", PIB);
-    printf ("Número de Pontos Turísticos: %d", pontosturísticos);
+    printf ("População: %d \n", populacao);
+    printf ("Área em Km²: %f \n",area);
+    printf ("PIB: %f \n", PIB);
+    printf ("Número de Pontos Turísticos: %d \n", pontosturisticos);
+
 
 
 
