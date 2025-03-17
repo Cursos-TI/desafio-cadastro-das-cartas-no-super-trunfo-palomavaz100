@@ -9,7 +9,7 @@
 int main() {
 
     char estado;
-    char codigodacarta [04]; 
+    char codigodacarta [20];
     char nomedacidade [20];
     int populacao;
     float area;
@@ -20,7 +20,7 @@ int main() {
     scanf ("%s", &estado);
 
     printf ("Código da Carta: \n");
-    scanf ("%s", &codigodacarta);
+    scanf (" %s", &codigodacarta);
 
 
     printf ("Nome da Cidade: \n");
