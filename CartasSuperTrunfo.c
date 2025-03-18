@@ -2,6 +2,8 @@
 
 int main() {
 
+//Declarei as variaveis separadamente em carta 1 e carta 2, seguindos os respectivos nomes: 
+
     char estado1 = 'A';
     char estado2 = 'A';
     char codigo1 [5];
@@ -17,7 +19,9 @@ int main() {
     int pontosturisticos1;
     int pontosturisticos2;
 
-    //Primeiro declarei as variaveis levando em consideração duas cartas, sendo assim determinei variaveis 1 e 2 //
+    //Primeiro declarei as variaveis levando em consideração duas cartas, sendo assim determinei variaveis 1 e 2 
+    //seguindo para printf, mostrando a mensagem ao usuário com qual informação o mesmo deve fornecer
+    //scanf para entrada da resposta do usuário
 
     printf ("Adicione os dados da Carta 1 \n Nome do Estado: \n");
     scanf (" %c", &estado1);
@@ -39,6 +43,7 @@ int main() {
 
     printf ("Número de Pontos Turísticos: \n");
     scanf (" %d", &pontosturisticos1);
+
 // Após determinar os valores das variaveis 1 peço ao usuario as informações da segunda carta, sendo as variaveis 2//
 
     printf ("Adicione os dados da Carta 2 \n Nome do Estado: \n");
@@ -83,14 +88,24 @@ int main() {
     printf ("PIB: %f \n", PIB2);
     printf ("Número de Pontos Turísticos: %d \n", pontosturisticos2);
    
-   //Segue os dados utilizados em cada carta:
-   //carta 1                     carta 2
-   //Bahia (Estado A)            São Paulo (Estado B)
-  //Código da Carta: A01         Código da Carta: B01
-  //Nome da Cidade: Salvador     Nome da Cidade: SP
-  //População: 2.418.000         População: 11.450.000
-  //Área em Km²: 693 km²         Área em Km²: 1521 km²
-  //PIB: 62.954.487,49           PIB: 829.000.000.000
-  //Pontos Turísticos: 13        Pontos Turísticos: 36   
-    return 0;
+   //Segue os dados utilizados em cada carta: (Dados os quais o usuario deve inserir, os quais eu mesma criei para teste do programa)
+
+   //Carta 1                     
+   //Bahia (Estado A)            
+  //Código da Carta: A01         
+  //Nome da Cidade: Salvador     
+  //População: 2.418.000        
+  //Área em Km²: 693 km²         
+  //PIB: 62.954.487,49           
+  //Pontos Turísticos: 13        
+    
+  //Carta 2
+  //São Paulo (Estado B)
+  //Código da Carta: B01
+  //Nome da Cidade: SP
+  //População: 11.450.000
+  //Área em Km²: 1521 Km²
+  //PIB: 829.000.000.000
+  //Pontos Turísticos: 36
+  return 0;
 }
