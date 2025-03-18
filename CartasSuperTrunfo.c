@@ -4,10 +4,10 @@ int main() {
 
     char estado1 = 'A';
     char estado2 = 'A';
-    char codigo1;
-    char codigo2;
-    char cidade1;
-    char cidade2;
+    char codigo1 [5];
+    char codigo2 [5];
+    char cidade1 [25];
+    char cidade2 [25];
     int populacao1;
     int populacao2;
     float area1;
@@ -21,10 +21,10 @@ int main() {
     scanf (" %c", &estado1);
 
     printf ("Código da Carta: \n");
-    scanf (" %s", &codigo1);
+    scanf (" %s", codigo1);
 
     printf ("Nome da Cidade: \n");
-    scanf (" %s", &cidade1);
+    scanf (" %s", cidade1);
 
     printf ("População: \n");
     scanf (" %d", &populacao1);
@@ -42,11 +42,11 @@ int main() {
     scanf (" %c", &estado2);
 
     printf ("Código da Carta: \n");
-    scanf (" %s", &codigo2);
+    scanf (" %s", codigo2);
 
 
     printf ("Nome da Cidade: \n");
-    scanf (" %s", &cidade2);
+    scanf (" %s", cidade2);
 
     printf ("População: \n");
     scanf (" %d", &populacao2);
