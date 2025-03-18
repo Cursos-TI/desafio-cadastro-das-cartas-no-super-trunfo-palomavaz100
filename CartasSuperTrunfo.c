@@ -2,25 +2,29 @@
 
 int main() {
 
-    char estado1, estado2 [1];
-    char codigo1 , codigo2 [5];
-    char cidade1, cidade2 [20];
-    int populacao1, populacao2;
-    float area1, area2;
-    float PIB1, PIB2;
-    int pontosturisticos1, pontosturisticos2;
-
-
+    char estado1 = 'A';
+    char estado2 = 'A';
+    char codigo1;
+    char codigo2;
+    char cidade1;
+    char cidade2;
+    int populacao1;
+    int populacao2;
+    float area1;
+    float area2;
+    float PIB1;
+    float PIB2;
+    int pontosturisticos1;
+    int pontosturisticos2;
 
     printf ("Adicione os dados da Carta 1 \n Nome do Estado: \n");
-    scanf (" %s", estado1);
+    scanf (" %c", &estado1);
 
     printf ("Código da Carta: \n");
-    scanf (" %s", codigo1);
-
+    scanf (" %s", &codigo1);
 
     printf ("Nome da Cidade: \n");
-    scanf (" %s", cidade1);
+    scanf (" %s", &cidade1);
 
     printf ("População: \n");
     scanf (" %d", &populacao1);
@@ -35,14 +39,14 @@ int main() {
     scanf (" %d", &pontosturisticos1);
 
     printf ("Adicione os dados da Carta 2 \n Nome do Estado: \n");
-    scanf ("%s", estado2);
+    scanf (" %c", &estado2);
 
     printf ("Código da Carta: \n");
-    scanf (" %s", codigo2);
+    scanf (" %s", &codigo2);
 
 
     printf ("Nome da Cidade: \n");
-    scanf (" %s", cidade2);
+    scanf (" %s", &cidade2);
 
     printf ("População: \n");
     scanf (" %d", &populacao2);
@@ -58,7 +62,7 @@ int main() {
 
     
     printf ("Carta 1 \n");
-    printf ("Estado: %s \n", estado1);
+    printf ("Estado: %c \n", estado1);
     printf ("Código da Carta: %s \n", codigo1);
     printf ("Nome da Cidade: %s \n", cidade1);
     printf ("População: %d \n", populacao1);
@@ -67,7 +71,7 @@ int main() {
     printf ("Número de Pontos Turísticos: %d \n", pontosturisticos1);
     
     printf ("Carta 2 \n");
-    printf ("Estado: %s \n", estado2);
+    printf ("Estado: %c \n", estado2);
     printf ("Código da Carta: %s \n", codigo2);
     printf ("Nome da Cidade: %s \n", cidade2);
     printf ("População: %d \n", populacao2);
