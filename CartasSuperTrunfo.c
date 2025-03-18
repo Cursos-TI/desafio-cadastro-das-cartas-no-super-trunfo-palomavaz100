@@ -17,6 +17,8 @@ int main() {
     int pontosturisticos1;
     int pontosturisticos2;
 
+    //Primeiro declarei as variaveis levando em consideração duas cartas, sendo assim determinei variaveis 1 e 2 //
+
     printf ("Adicione os dados da Carta 1 \n Nome do Estado: \n");
     scanf (" %c", &estado1);
 
@@ -37,6 +39,7 @@ int main() {
 
     printf ("Número de Pontos Turísticos: \n");
     scanf (" %d", &pontosturisticos1);
+// Após determinar os valores das variaveis 1 peço ao usuario as informações da segunda carta, sendo as variaveis 2//
 
     printf ("Adicione os dados da Carta 2 \n Nome do Estado: \n");
     scanf (" %c", &estado2);
@@ -60,7 +63,8 @@ int main() {
     printf ("Número de Pontos Turísticos: \n");
     scanf (" %d", &pontosturisticos2);
 
-    
+    // Em seguida o sistema deve mostrar ao usuario os dados das duas cartas, assim como requerido no desafio.//
+
     printf ("Carta 1 \n");
     printf ("Estado: %c \n", estado1);
     printf ("Código da Carta: %s \n", codigo1);
@@ -79,7 +83,14 @@ int main() {
     printf ("PIB: %f \n", PIB2);
     printf ("Número de Pontos Turísticos: %d \n", pontosturisticos2);
    
-   
-   
+   //Segue os dados utilizados em cada carta:
+   //carta 1                     carta 2
+   //Bahia (Estado A)            São Paulo (Estado B)
+  //Código da Carta: A01         Código da Carta: B01
+  //Nome da Cidade: Salvador     Nome da Cidade: SP
+  //População: 2.418.000         População: 11.450.000
+  //Área em Km²: 693 km²         Área em Km²: 1521 km²
+  //PIB: 62.954.487,49           PIB: 829.000.000.000
+  //Pontos Turísticos: 13        Pontos Turísticos: 36   
     return 0;
 }
